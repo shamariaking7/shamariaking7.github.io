@@ -17,7 +17,7 @@ body {
     text-align: center;
     padding: 24px;
     background-color: #CE2121;
-    color: white
+    color: white;
 }
 
 #color-2 {
@@ -44,6 +44,11 @@ body {
     color: white;
 }
 
+#color-palette-2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
 #color-5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -53,8 +58,9 @@ body {
 }
 
 #color-6 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-        'Lucida Sans', Arial, sans-serif;
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
     background-color: #690D3E;
@@ -78,8 +84,7 @@ body {
 }
 
 #color-9 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: serif;
     text-align: center;
     padding: 24px;
     background-color: #FF1900;
@@ -92,4 +97,55 @@ body {
     padding: 24px;
     background-color: #F75D5D;
     color: black;
+}
+
+#color-palette-3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#color-11 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 24px;
+    text-align: center;
+    background-color: #0D695B;
+    color: white;
+}
+
+#color-12 {
+    font-family:
+        'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;
+    padding: 24px;
+    text-align: center;
+    background-color: #639C00;
+    color: black;
+}
+
+#color-13 {
+    font-family: 
+        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+        sans-serif;
+    text-align: center;
+    padding: 24px;
+    background-color: #00824A;
+    color: white;
+}
+
+#color-14 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+    background-color: #B7FF00;
+    color: black;
+}
+
+#color-15 {
+    font-family:
+        'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+        sans-serif;
+    text-align: center;
+    padding: 24px;
+    background-color: #054605;
+    color: white;
 }
