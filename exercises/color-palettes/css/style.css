@@ -13,7 +13,7 @@ body {
 }
 
 #color-1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: initial; 
     text-align: center;
     padding: 24px;
     background-color: #CE2121;
@@ -101,11 +101,12 @@ body {
 
 #color-palette-3 {
     font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
     text-align: center;
 }
 
 #color-11 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: inherit;
     padding: 24px;
     text-align: center;
     background-color: #0D695B;
