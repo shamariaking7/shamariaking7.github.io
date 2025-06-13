@@ -11,18 +11,36 @@
     width: 115px;
     height: 115px;
     border: 8px solid;
-    margin: 2px;
+    margin: 4px;
     padding: 10px;
     background-color: bisque;
     display: inline-block;
+
 }
 
 .acrylicpaintcolors {
-    width: 100px;
+    width: 110px;
     height: 100px;
-    margin: 2px;
+    margin: 4px;
     padding: 10px;
     border: 8px solid;
     background-color: lightcoral;
     display: inline-block;
+}
+
+.disneyworld {
+    width: 112px;
+    height: 105px;
+    margin: 4px;
+    padding: 10px;
+    border: 8px solid;
+    background-color: purple;
+    display: inline-block;
+}
+
+.art-gallery {
+    width: 90px;
+    display: inline-block;
+    border: 6px solid blue;
+    background-color:aquamarine
 }
