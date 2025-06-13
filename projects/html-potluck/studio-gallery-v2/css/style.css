@@ -1,0 +1,28 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.wavepainting {
+    width: 115px;
+    height: 115px;
+    border: 8px solid;
+    margin: 2px;
+    padding: 10px;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.acrylicpaintcolors {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    padding: 10px;
+    border: 8px solid;
+    background-color: lightcoral;
+    display: inline-block;
+}
