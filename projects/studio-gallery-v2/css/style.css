@@ -8,10 +8,10 @@
 */
 
 .wavepainting {
-    width: 115px;
-    height: 115px;
-    border: 8px solid;
-    margin: 4px;
+    width: 100px;
+    height: 110px;
+    border: outset 6px brown;
+    margin: 18px;
     padding: 10px;
     background-color: bisque;
     display: inline-block;
@@ -21,9 +21,9 @@
 .acrylicpaintcolors {
     width: 110px;
     height: 100px;
-    margin: 4px;
+    margin: 6px;
     padding: 10px;
-    border: 8px solid;
+    border: outset 6px rgb(239, 104, 51);
     background-color: lightcoral;
     display: inline-block;
 }
@@ -31,16 +31,17 @@
 .disneyworld {
     width: 112px;
     height: 105px;
-    margin: 4px;
+    margin: 16px;
     padding: 10px;
-    border: 8px solid;
-    background-color: purple;
+    border: 6px outset rgb(89, 35, 139);
+    background-color: rgb(230, 46, 230);
     display: inline-block;
 }
 
 .art-gallery {
     width: 90px;
+    margin: 16px;
     display: inline-block;
-    border: 6px solid blue;
-    background-color:aquamarine
+    border: 6px outset blue;
+    background-color: aquamarine;
 }
