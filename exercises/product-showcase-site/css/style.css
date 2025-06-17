@@ -21,14 +21,13 @@ body {
     text-align: center;
 }
 
-.red-container {
-    color: white;
-    background-color: red;
+.orange-container {
+    background-color: orange;
     padding: 40px 0px;
 }
 
-#mountaindew-codered {
-    width: 18%;
+#capriorangesun {
+    width: 26%;
 }
 
 .single-column {
