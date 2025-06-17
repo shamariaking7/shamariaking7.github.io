@@ -110,7 +110,7 @@ div span {
 }
 
 #signature {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 12px;
     padding-left: 6px;
@@ -150,5 +150,4 @@ div span {
     border: 4px;
     border-radius: 50%;
     background-color: rgb(255, 221, 0);
-    
 }
