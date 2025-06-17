@@ -21,16 +21,32 @@ body {
     text-align: center;
 }
 
-.orange-container {
-    background-color: orange;
+.red-container {
+    color: white;
+    background-color: rgb(255, 86, 86);
     padding: 40px 0px;
 }
 
-#capriorangesun {
-    width: 26%;
+#mountaindew-codered {
+    width: 18%;
 }
 
 .single-column {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.aquamarine-container {
+    background-color: aquamarine;
+    padding: 40px 0px;
+}
+
+#mountaindew-bajablast {
+    width: 18%;
+}
+
+.single-column {
+    color: black;
     margin: 30px 0px;
     text-align: center;
 }
