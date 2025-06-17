@@ -6,3 +6,149 @@
 
     Good luck, and have fun!
 */
+
+#license {
+    width: 700px;
+    border: 4px solid black;
+    font-size: 24px;
+    background: linear-gradient(to right, rgb(251, 198, 111), rgb(237, 142, 
+    80));
+    box-shadow: 6px 6px #00000033;
+    border-radius: 4%;
+    padding: 24px;
+}
+
+div h1 {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: rgb(19, 19, 123);
+}
+
+#left-side {
+    font-size: medium;
+    display: inline-block;
+    width: 65%;
+    font-size: 22px; 
+}
+
+div h4 {
+    font-size: 24px;
+    background-color: rgb(16, 16, 124);
+    text-align: center;
+    color: white;
+    padding: 8px;
+    margin: 6px;
+    margin-bottom: 2px;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+#id-and-expiration div {
+    text-align: center;
+    padding-left: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#div {
+    color: rgb(24, 24, 151);
+}
+
+#address {
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: -22px;
+    margin-bottom: -12px;
+}
+
+#personal-info {
+    display: inline-block;
+}
+
+#small-pic-container {
+    display: inline-block;
+}
+
+#small-pic-container img {    
+    width: 92px;
+    margin: 8px;
+    margin-bottom: 2px;
+    padding-bottom: 12px;
+}
+
+#data-fields {
+    display: inline-block;
+}
+
+#data-left {
+    display: inline-block;
+    margin: 2px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    font-size: 18px;
+    color: rgb(20, 20, 157);
+}
+
+#data-right {
+    color: rgb(20, 20, 157);
+    display: inline-block;
+    border: 2px;
+    font-size: 18px;
+    margin: 2px;
+    padding-left: 8px;
+}
+
+div span {
+    font-weight: bold;
+    color: red;
+}
+
+#signature {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 12px;
+    padding-left: 6px;
+
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor {
+    color: red;
+    font-weight: bold;
+    margin: 2px;
+    padding: 24px;
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 22px;
+    margin-bottom: -14px;
+}
+
+.fa-heart {
+    color: red;
+    padding: 2px;
+    border: 4px;
+    font-size: 18px;
+}
+
+#real-id {
+    display: inline-block;
+}
+
+.fa-star {
+    padding: 20px;
+    color: white;
+    padding: 4px;
+    border: 4px;
+    border-radius: 50%;
+    background-color: rgb(255, 221, 0);
+    
+}
