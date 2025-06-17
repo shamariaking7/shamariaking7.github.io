@@ -31,7 +31,8 @@ div h1 {
     font-size: medium;
     display: inline-block;
     width: 65%;
-    font-size: 22px; 
+    font-size: 22px;
+    font-family: sans-serif; 
 }
 
 div h4 {
@@ -42,11 +43,13 @@ div h4 {
     padding: 8px;
     margin: 6px;
     margin-bottom: 2px;
+    font-family: serif;
 }
 
 #right-side {
     display: inline-block;
     width: 34%;
+    font-family: sans-serif;
 }
 
 #id-and-expiration div {
@@ -55,10 +58,12 @@ div h4 {
     display: inline-block;
     margin-bottom: 15px;
     font-size: 20px;
+    font-family: sa;
 }
 
 #div {
     color: rgb(24, 24, 151);
+    font-family: sans-serif;
 }
 
 #address {
@@ -68,14 +73,17 @@ div h4 {
     display: inline-block;
     margin-top: -22px;
     margin-bottom: -12px;
+    font-family: sans-serif;
 }
 
 #personal-info {
     display: inline-block;
+    font-family: sans-serif;
 }
 
 #small-pic-container {
     display: inline-block;
+    font-family: sans-serif;
 }
 
 #small-pic-container img {    
@@ -96,6 +104,7 @@ div h4 {
     padding-left: 4px;
     font-size: 18px;
     color: rgb(20, 20, 157);
+    font-family: sans-serif;
 }
 
 #data-right {
@@ -105,11 +114,13 @@ div h4 {
     font-size: 18px;
     margin: 2px;
     padding-left: 8px;
+    font-family: sans-serif;
 }
 
 div span {
     font-weight: bold;
     color: red;
+    font-family: sans-serif;
 }
 
 #signature {
@@ -117,6 +128,7 @@ div span {
     text-align: center;
     margin-top: 12px;
     padding-left: 6px;
+    font-family: sans-serif;
 
 }
 
@@ -133,6 +145,7 @@ div span {
     display: inline-block;
     padding-right: 22px;
     margin-bottom: -14px;
+    font-family: sans-serif;
 }
 
 .fa-heart {
