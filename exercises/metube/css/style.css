@@ -13,7 +13,11 @@ body {
     grid-template-columns: 250px 1fr;
     grid-template-areas: 
         "header header"
-        "sidebar main";
+        "sidebar main"; 
+        background: radial-gradient(
+            rgb(255, 0, 0), 
+            rgb(221, 0, 255)
+        );
 }
 
 /* grid item */
@@ -25,15 +29,15 @@ body {
 
 /* grid item  */
 #sidebar {
-    /* background-color: lightsalmon; */
+    color: white;
     grid-area: sidebar;
     padding: 0px 24px;
+    display: inline-block;
 }
 
 /* grid item */
 /* flexbox container */
 #main {
-    /* background-color: aqua; */
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +48,7 @@ body {
 }
 
 #header #me {
-    color: #111111;
+    color: #ffffff;
 }
 
 #header #tube {
@@ -66,11 +70,12 @@ body {
     color:#111111;
     display: block;
     padding: 12px;
+    color: white;
 }
 
 /* pseudo-class */
 #sidebar ul a:hover {
-    background-color: #eeee;
+    background-color: #fd0000;
     border-radius: 12px;
 }
 
@@ -80,32 +85,32 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    background: radial-gradient(at top left, 
-    crimson, 
-    orange
-    );
-    aspect-ratio: 16 / 9;
+.metube-item img {
+    width: 400px;
     border-radius: 8px;
 }
 
 .metube-item h4 {
     margin: 8px;
+    color: white;
 }
 
 .metube-item h4 a {
     text-decoration: none;
     color: #111111;
-    display: block;  
+    display: block;
+    color: white
+
 }
 
 .metube-item h4 a:hover {
     text-decoration: underline;
 }
 
-.metube-item .video-deatils {
+.metube-item .video-details {
     margin: 8px;
     font-size: 14px;
+    color: white;
 }
 
 .metube-item .video-channel {
