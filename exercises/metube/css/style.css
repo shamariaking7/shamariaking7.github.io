@@ -87,7 +87,7 @@ body {
 
 .metube-item img {
     width: 400px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .metube-item h4 {
@@ -115,4 +115,14 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+
+#sidebar i {
+    margin-right: 8px;
+    
+}
+
+.lofi-girl img {
+    border-radius: 500px;
+    width: 30px;
 }
