@@ -14,10 +14,10 @@ body {
     grid-template-areas: 
         "header header"
         "sidebar main"; 
-        background: radial-gradient(
-            rgb(255, 0, 0), 
-            rgb(221, 0, 255)
-        );
+    background: radial-gradient(
+        rgb(255, 0, 0), 
+        rgb(221, 0, 255)
+    );
 }
 
 /* grid item */
@@ -67,7 +67,7 @@ body {
 
 #sidebar ul a {
     text-decoration: none;
-    color:#111111;
+    color: #111111;
     display: block;
     padding: 12px;
     color: white;
@@ -99,8 +99,7 @@ body {
     text-decoration: none;
     color: #111111;
     display: block;
-    color: white
-
+    color: white;
 }
 
 .metube-item h4 a:hover {
@@ -124,15 +123,45 @@ body {
 
 .lofi-girl img {
     border-radius: 500px;
-    width: 36px;
+    width: 38px;
 }
 
 .soulfi-room img {
     border-radius: 500px;
-    width: 36px;
+    width: 38px;
 }
 
 .xavier-kickz img {
     border-radius: 500px;
-    width: 36px;
+    width: 38px;
+}
+
+.jack-ac-art img {
+    border-radius: 500px;
+    width: 38px;
+}
+
+.shrimpy img {
+    border-radius: 500px;
+    width: 38px;
+}
+
+.mr-beast img {
+    border-radius: 500px;
+    width: 38px;
+}
+
+.team-fearless img {
+    border-radius: 500px;
+    width: 38px;
+}
+
+.r1de-along img {
+    border-radius: 500px;
+    width: 38px;
+}
+
+.kwik-draw-35 img {
+    border-radius: 500px;
+    width: 38px;
 }
