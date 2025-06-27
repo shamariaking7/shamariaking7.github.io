@@ -1,0 +1,78 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    width: 350px;
+    background-color: white;
+    border: 16px solid #ffd700;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.card-style-3 img {
+    width: 300px;
+    margin: 2px 12px 4px;
+    border: 6px solid #daa520;
+}
+
+.pokemon-header h2 .health {
+    font-size: 40px;
+    padding: 2px;
+}
+
+.card-style-3 .details {
+    background: radial-gradient(
+        rgb(255, 206, 28), 
+        rgb(188, 137, 10)
+    );
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 4px 12px 15px ;
+}
+
+.attack .description .bold {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0px;
+}
+
+
+.card-style-3 .attack {
+    display: flex;
+    padding: 10px 20px;
+    padding-left: 36px;
+}
+
+.card-style-3 .attack .energy {
+    min-width: 50px;
+    padding-top: 42px;
+    gap: 6px;
+}
+
+.card-style-3 .attack .description {
+    padding: 6px 0px 10px 4px;
+}
+
+.card-style-3 .power {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.card-style-3 .data {
+    font-size: 11px;
+    border: 3px solid rgb(213, 159, 21);
+    margin: 8px 16px 16px;
+    padding: 4px 8px;
+    font-weight: bold;
+    border-top: 3px solid;
+}
