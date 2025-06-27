@@ -14,9 +14,11 @@
     margin: 16px;
     width: 350px;
     border: 2px;
-    background-color: rgb(226, 250, 226);
+    background-color: rgb(226, 246, 226);
     margin-bottom: 24px;
 }
+
+
 
 .card-style-1 img {
     height: 260px;
@@ -24,16 +26,15 @@
 }
 
 .card-style-1 h2 {
-    padding-right: 26px;
-    text-align: center;
+    padding-right: 24px;
     font-size: 25px;
-    padding-top: 2px;
+    padding: 0px 24px;
 }
 
 .card-style-1 p {
     font-size: 17px;
     margin-left: 14px;
-    padding: 0px;
+    padding: 4px;
     margin-right: 4px;
     padding-bottom: 2px;
     flex: 1;
@@ -48,10 +49,11 @@
     font-size: 22px;
 }
 
-.card-style-1 :hover {
+.card-style-1:hover {
     transition: 
-        background-color 10s,
-        color 10s;
-    transform: translateX(-50deg);
+        background-color 0.9 s,
+        color 0.9s;
+    transform: translateX(-10px);
     box-shadow: 4px 4px 10px #000000;
+    opacity: 0.9;
 }
