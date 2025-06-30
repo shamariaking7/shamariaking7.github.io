@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    /* begin basic hero setup */
+    background-image: url("../images/hot-air-balloon.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* must be applied to container */
+    position: relative;
+    /* margin-bottom: 100px */
+}
+
+
+.hero-container {
+    font-size: 44px;
+}
+
+.hero-container h1 {
+    position: absolute;
+    top: 25%;
+    left: 22%;
+}
+
+.hero-container h3 {
+    font-size: 38px;
+    position: absolute;
+    left: 26%;
+    top: 45%;
+}
+
+.hero-container a {
+    color: white;
+    position: absolute;
+    left: 29%;
+    top: 62%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#hero-2 {
+    /* begin basic hero setup */
+    background-image: url("../images/space.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* must be applied to container */
+    position: relative;
+    /* margin-bottom: 100px */
+}
+
+.hero-container h2 {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    left: 38%;
+    bottom: 64%;
+}
+
+.hero-container h3 {
+    position: absolute;
+    font-size: 50px;
+    left: 34%;
+    top: 23%;
+}
