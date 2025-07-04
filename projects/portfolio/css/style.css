@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Limelight&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -24,6 +26,7 @@ body {
 
 #hero h1 {
     position: absolute;
+    font-family: "Limelight", sans-serif;;
     color: white;
     font-size: 82px;
     left: 53%;
@@ -31,13 +34,15 @@ body {
 }
 
 #hero a {
-    padding: 12px;
+    background-color: rgb(201, 160, 109);
+    font-family: "Libre Baskerville", serif;
+    padding: 10px;
     position: absolute;
     color: white;
     font-size: 50px;
     text-decoration: none;
-    left: 66%;
-    top: 47%;
+    left: 64%;
+    top: 50%;
 }
 
 .hero-container {
@@ -56,12 +61,12 @@ body {
 }
 
 .gallery {
-    background-color: #0aa290;
+    background-color: #922f1c;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding: 24px;
-    border: 10px solid #ffa5d2;
+    border: 10px solid #dd9069;
 }
 
 .gallery img {
@@ -82,14 +87,15 @@ body {
 }
 
 .card h1 {
+    font-family: "Libre Baskerville", serif;
     font-size: 30px;
     padding: 12px;
 }
 
 .card {
     flex: 1;
-    background-color: #0dc1ac;
-    border: 10px solid #ffa5d2;
+    background-color: rgb(249, 215, 92);
+    border: 10px solid #b06b1c;
     padding: 24px;
     text-align: center;
     margin: 0px;
@@ -97,18 +103,20 @@ body {
 }
 
 .card a {
+    font-family: "Libre Baskerville", serif;
     color: black;
     text-decoration: none;
     margin: 12px 6px;
 }
 
 #navbar {
-    background-color: rgb(255, 222, 179);
+    background-color: rgb(252, 211, 156);
     display: flex;
     justify-content: center;
 }
 
 #navbar a {
+    font-family: "Libre Baskerville", serif;
     font-size: 28px;
     color: black;
     text-decoration: none;
