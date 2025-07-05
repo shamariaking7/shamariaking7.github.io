@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +11,134 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(
+        lightskyblue, 
+        rgb(13, 138, 78)
+    );
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a h2 {
+    width: 200px;
+    font-size: 26px;
+    font-family: "DM Serif Text", serif;
+    margin-left: 36px;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+    font-size: 22px;
+    margin-right: 36px;
+}
+
+#navbar #logo {
+    margin-right: 14px;
+}
+
+#navbar .cta-button {
+    background-color: rgb(164, 211, 240);
+    color:  rgb(9, 113, 63);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100px;
+    margin-right: 38px;
+}
+
+#navbar-2 {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(
+        rgb(253, 207, 0), 
+        rgb(255, 119, 0)
+    );
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 h3 {
+    width: 200px;
+    font-size: 26px;
+    margin-left: 26px;
+}
+
+
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+    font-size: 22px;
+    margin-right: 35px;
+}
+
+#navbar-2 #logo-2 {
+    margin-right: 10px;
+}
+
+#navbar-2 .cta-button-2 {
+    background-color: rgb(192, 17, 125);
+    color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100px;
+    margin-right: 36px;
+}
+
+#navbar-3 {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(
+        rgb(250, 0, 0), 
+        rgb(20, 20, 20)
+    );
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 a h3 {
+    font-family: "Creepster", system-ui;
+    width: 200px;
+    font-size: 32px;
+    margin-left: 35px;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+    font-size: 24px;
+    margin-right: 35px;
+}
+
+#navbar-3 #logo-3 {
+    margin-right: 16px;
+}
+
+#navbar-3 .cta-button-3 {
+    background-color: rgb(255, 140, 0);
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100px;
+    margin-right: 36px;
 }
