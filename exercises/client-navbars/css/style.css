@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Maname&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Maname&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Maname&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Maname&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Maname&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&family=Varela+Round&display=swap');
 
 * {
     box-sizing: border-box;
@@ -27,13 +33,14 @@ body {
 
 #navbar a h2 {
     width: 200px;
-    font-size: 26px;
+    font-size: 27px;
     font-family: "DM Serif Text", serif;
-    margin-left: 36px;
+    margin-left: 35px;
+    padding-top: 10px;
 }
 
-
 #navbar a {
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: white;
     padding: 26px;
@@ -42,19 +49,21 @@ body {
 }
 
 #navbar #logo {
-    margin-right: 14px;
+    margin-right: 16px;
 }
 
 #navbar .cta-button {
     background-color: rgb(164, 211, 240);
-    color:  rgb(9, 113, 63);
+    color: rgb(9, 113, 63);
     border-radius: 36px;
     padding: 16px 24px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     min-width: 100px;
-    margin-right: 38px;
+    margin-right: 60px;
+    padding-top: 7px;
+    padding-bottom: 10px;
 }
 
 #navbar-2 {
@@ -62,7 +71,7 @@ body {
     position: sticky;
     top: 0px;
     background: linear-gradient(
-        rgb(253, 207, 0), 
+        rgb(247, 216, 78), 
         rgb(255, 119, 0)
     );
     justify-content: space-between;
@@ -71,16 +80,17 @@ body {
 
 #navbar-2 h3 {
     width: 200px;
+    font-family: "Varela Round", sans-serif;
     font-size: 26px;
-    margin-left: 26px;
+    margin-left: 35px;
 }
-
 
 #navbar-2 a {
     text-decoration: none;
     color: white;
     padding: 26px;
-    font-size: 22px;
+    font-family: "Ovo", serif;
+    font-size: 24px;
     margin-right: 35px;
 }
 
@@ -89,15 +99,15 @@ body {
 }
 
 #navbar-2 .cta-button-2 {
-    background-color: rgb(192, 17, 125);
-    color: white;
+    background-color: rgb(255, 0, 0);
+    color: rgb(254, 246, 0);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     min-width: 100px;
-    margin-right: 36px;
+    margin-right: 48px;
 }
 
 #navbar-3 {
@@ -123,6 +133,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 26px;
+    font-family: "Emilys Candy", serif;
     font-size: 24px;
     margin-right: 35px;
 }
@@ -140,5 +151,5 @@ body {
     font-weight: bold;
     text-align: center;
     min-width: 100px;
-    margin-right: 36px;
+    margin-right: 56px;
 }
