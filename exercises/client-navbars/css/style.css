@@ -24,8 +24,8 @@ body {
     position: sticky;
     top: 0px;
     background: linear-gradient(
-        lightskyblue, 
-        rgb(13, 138, 78)
+        rgb(239, 185, 126), 
+        rgb(132, 93, 36)
     );
     justify-content: space-between;
     align-items: center;
@@ -53,16 +53,15 @@ body {
 }
 
 #navbar .cta-button {
-    background-color: rgb(164, 211, 240);
-    color: rgb(9, 113, 63);
+    background-color: rgb(144, 87, 27);
+    color: rgb(239, 185, 126);
     border-radius: 36px;
     padding: 16px 24px;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: bold;
     text-align: center;
     min-width: 100px;
     margin-right: 60px;
-    padding-top: 7px;
     padding-bottom: 10px;
 }
 
@@ -132,7 +131,7 @@ body {
 #navbar-3 a {
     text-decoration: none;
     color: white;
-    padding: 26px;
+    padding: 24px;
     font-family: "Emilys Candy", serif;
     font-size: 24px;
     margin-right: 35px;
@@ -152,4 +151,40 @@ body {
     text-align: center;
     min-width: 100px;
     margin-right: 56px;
+}
+
+#navbar-top {
+    background: linear-gradient(
+        rgb(255, 93, 242), 
+        rgb(67, 7, 56)
+    );
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 19px;
+    font-size: 23px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(
+        rgb(255, 123, 0), 
+        rgb(20, 20, 20)
+    );
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
 }
