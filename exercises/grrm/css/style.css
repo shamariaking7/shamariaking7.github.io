@@ -469,7 +469,7 @@ body {
 }
 
 /* Mobile Breakpoint  */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
 
     #grid-layout {
         grid-template-columns: 1fr;
@@ -481,12 +481,20 @@ body {
         "card-2"  
         "card-3"
         "aside"
+        "blog"
         "footer"
         "bottom";
     }
 
-    #social-section {
+    #shield-image {
         display: none;
     }
 
+    #search-button {
+        display: none;
+    }
+
+    #search-bar {
+        display: none;
+    }
 }
