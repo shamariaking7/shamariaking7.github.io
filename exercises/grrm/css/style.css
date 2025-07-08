@@ -464,11 +464,29 @@ body {
     }
 
     #nav a {
-        flex: 50px;
+        flex: 190px;
     }
 }
 
 /* Mobile Breakpoint  */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
+
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "header"
+        "navbar"
+        "banner"
+        "card-1"  
+        "card-2"  
+        "card-3"
+        "aside"
+        "footer"
+        "bottom";
+    }
+
+    #social-section {
+        display: none;
+    }
 
 }
