@@ -6,3 +6,61 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/* basic hero layout */
+
+#hero {
+    background-image: url("../images/dog-picture.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* must be applied to container */
+    position: relative;
+}
+
+#hero-container h2 {
+    position: absolute;
+    font-size: 33px;
+    top: 36%;
+    left: 4%;
+}
+
+#hero a {
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 10px;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+}
+
+#layout {
+   background-color: rgb(0, 255, 170);
+   border-radius: 12px;
+   min-width: 350px;
+   width: 50%;
+   margin: 0px auto;
+   text-align: center;
+}
+
+#layout h2 {
+    font-size: 40px;
+    margin: 16px;
+    padding-top: 12px;
+}
+
+#layout img {
+    width: 90%;
+}
+
+#layout p {
+    font-size: 18px;
+    margin: 18px;
+    padding-bottom: 14px;
+}
