@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Jua&family=Maname&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&family=Varela+Round&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,13 +8,16 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/dog-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #navbar {
     background: linear-gradient(
         to bottom, 
-        #ffb471,
-        #714306
+        #fcbe88,
+        #593507
     );
     display: flex;
     align-items: center;
@@ -26,6 +32,7 @@ body {
 }
 
 #navbar #logo {
+    font-family: "Jua", sans-serif;
     font-size: 26px;
     margin-right: auto;
     margin-left: 16px;
@@ -75,7 +82,7 @@ body {
 /* basic hero layout ********************************************/
 #hero {
     background-image: url("../images/dog-picture.webp");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center center;
     /* end basic hero setup */
@@ -91,43 +98,89 @@ body {
     color: black;
     position: absolute;
     font-size: 33px;
+    font-family: "Jua", sans-serif;
     top: 36%;
-    left: 4%;
+    left: 2%;
 }
 
 #hero a {
-    background-color: #ffb459;
+    background-color: #ffbe6e;
     border-radius: 50px;
     color: black;
     text-decoration: none;
+    font-weight: bold;
     font-size: 24px;
+    font-family: "Jua", sans-serif;
     padding: 12px;
     position: absolute;
-    left: 18%;
-    top: 50%;
+    left: 16%;
+    top: 54%;
 }
 /* end hero **********************************************************/
 
 #layout {
-    background-color: rgb(255, 187, 103);
+    background-color: rgb(255, 193, 123);
     border-radius: 12px;
     width: 50%;
-    margin: 0px auto;
+    padding: 4px;
+    margin: 48px auto;
     text-align: center;
+    
 }
 
 #layout h2 {
-    font-size: 42px;
+    font-size: 40px;
+    font-family: "Jua", sans-serif;
     margin: 18px;
-    padding-top: 20px;
+    padding-top: 2px;
 }
 
 #layout img {
-    width: 84%;
+    width: 70%;
 }
 
 #layout p {
     font-size: 18px;
     margin: 18px;
     padding-bottom: 14px;
+}
+
+#layout h4 {
+    font-size: 18px;
+}
+
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/dog-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-2 {
+    background-image: url("../images/volunteer.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* must be applied to container */
+    position: relative;
+    z-index: -1;
+}
+
+#hero-3 {
+    background-image: url("../images/donate.webp");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    /* end basic hero setup */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* must be applied to container */
+    position: relative;
+    z-index: -1;
 }
