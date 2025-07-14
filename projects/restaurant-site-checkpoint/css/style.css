@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DM+Serif+Text:ital@0;1&family=Emilys+Candy&family=Jua&family=Maname&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&family=Spicy+Rice&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    background-color: aquamarine; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#navbar a h2 {
+    width: 200px;
+    font-size: 32px;
+    margin-left: 14px;
+    font-family: "Spicy Rice", serif;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#navbar .cta-button {
+    background-color: rgb(144, 87, 27);
+    color: white;
+    border-radius: 36px;
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 10px;
+    margin-right: 58px;
+    padding-bottom: 12px;
+}
+
+#navbar-bottom {
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    margin-right: 36px;
+    margin-left: 50px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#hero {
+    background-image: url("../images/food-hero.jpg");
+    height: 490px;
+    background-size: cover;
+    background-attachment: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h2 {
+   font-size: 36px;
+   position: absolute;
+   left: 58%;
+   top: 36%;
+}
+
+#hero p {
+    font-size: 24px;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 55%;
+}
+
+#hero .cta-button {
+    background-color: rgb(144, 87, 27);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 19px 12px;
+    font-size: 20px;
+    position: absolute;
+    top: 69%;
+    left: 72%;
+    padding: 16px;
+    padding-right: 12px;
+}
