@@ -193,3 +193,67 @@ body {
 }
 
 /* beginning footer ***************************************************/
+/* end footer *********************************************************/
+
+#menu {
+    display: flex;
+    grid-template-columns: 1fr 1fr
+}
+
+#sidebar-content a {
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: normal;
+    color: black;
+    padding: 4px;
+    margin: px;
+}
+
+#sidebar-content {
+    font-size: 20px;
+    background-color: #cfe2d8;
+    width: 260px;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 6px;
+}
+
+#main-content {
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 16px;
+    text-align: center;
+}
+
+#menu #main-content img {
+    width: 60%;
+}
+
+#menu #main-content .name {
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#menu #main-content h3 {
+    font-size: 25px;
+    padding: 6px;
+    margin: 16px;
+}
+
+#main-content .name p {
+    font-size: 24px;
+}
+
+#menu #centered-column {
+    width: 50vw;
+}
+
+.card {
+    padding: 12px;
+    width: 500px;
+}
