@@ -29,14 +29,14 @@ body {
    font-size: 38px;
    position: absolute;
    left: 58%;
-   top: 20%;
+   top: 18%;
 }
 
 #hero p {
     font-size: 24px;
     position: absolute;
     font-weight: bold;
-    top: 47%;
+    top: 43%;
     left: 57%;
 }
 
@@ -48,7 +48,7 @@ body {
     padding: 19px 12px;
     font-size: 24px;
     position: absolute;
-    top: 80%;
+    top: 76%;
     left: 70%;
     padding: 16px;
     padding-right: 12px;
@@ -66,15 +66,17 @@ body {
 #navbar a h2 {
     width: 200px;
     font-size: 32px;
-    margin-left: 14px;
+    margin-left: 12px;
     font-family: "Spicy Rice", serif;
 }
 
 #navbar a {
     text-decoration: none;
     color: black;
-    padding: 19px;
+    padding: 20px;
     font-size: 20px;
+    padding-left: 14px;
+    margin-left: 52px;
 }
 
 #navbar .cta-button {
@@ -99,9 +101,9 @@ body {
 #navbar-bottom a {
     text-decoration: none;
     color: white;
-    padding: 12px 20px;
-    margin-right: 36px;
-    margin-left: 50px;
+    padding: 14px 20px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 #header {
@@ -118,6 +120,7 @@ body {
 }
 
 #main-section {
+    padding: 0px;
     margin-bottom: 16px;
     margin-top: 24px;
 }
@@ -186,13 +189,13 @@ body {
 .side-by-side .text-container h1 {
     font-size: 33px;
     padding: 6px;
-    margin-top: 24px;
+    margin-top: 76px;
 }
 
 .side-by-side .text-container h5 {
     font-size: 28px;
     padding: 16px;
-    margin: 12px 0px;
+    margin: 16px 0px;
 }
 
 /* beginning footer ***************************************************/
@@ -209,13 +212,13 @@ body {
     font-size: 25px;
     font-weight: normal;
     color: black;
-    padding: 10px;
+    padding: 12px;
 }
 
 #sidebar-content {
     font-size: 20px;
     width: 260px;
-    padding: 24px;
+    padding: 40px;
     background: linear-gradient(
         rgb(145, 147, 255), 
         rgb(57, 4, 47)
@@ -224,9 +227,9 @@ body {
 
 #sidebar-content h2 a {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 26px;
     border-bottom: 2px solid black;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
 }
 
 #main-content {
@@ -241,20 +244,20 @@ body {
 }
 
 #menu #main-content .name {
-    padding: 36px;
+    padding: 40px;
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
 }
 
 #menu #main-content h3 {
-    font-size: 28px;
-    padding: 22px;
-    margin: 26px;
+    font-size: 29px;
+    padding: 6px;
+    margin: 28px;
 }
 
 #main-content .name p {
-    padding-bottom: 0px;
+    padding: 20px;
     font-size: 30px;
 }
 
@@ -270,9 +273,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 80vw;
-    max-width: 100px;
     margin-right: 26px;
-    padding-left: 180px;
     align-items: center;
 }
 
@@ -280,8 +281,12 @@ body {
     width: 100%;
 }
 
+#menu #centered-column .card {
+    flex: 1;
+}
+
 #menu #centered-column img {
-    width: 110%;
+    width: 100%;
     padding: 26px;
 }
 
@@ -293,12 +298,12 @@ body {
 
 #menu #centered-column .card h4{
     font-size: 26px;
-    padding-left: 0px;
-    margin: 16px;
+    padding-left: 12px;
+    margin: 8px;
 }
 
 #menu #centered-column .card h3 {
-    font-size: 36px;
+    font-size: 32px;
     padding-left: 24px;
 }
 
@@ -312,6 +317,6 @@ body {
 #menu #main-content h1 {
     font-size: 40px;
     margin: 26px;
-    padding: 12px;
+    padding: 16px;
     border-bottom: 2px solid black;
 }
