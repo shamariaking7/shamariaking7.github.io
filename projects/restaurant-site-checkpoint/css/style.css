@@ -7,6 +7,10 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(
+        rgb(255, 241, 120), 
+        rgb(253, 182, 38)
+    );
 }
 
 /* Beginning hero ****************************************************/
@@ -114,7 +118,6 @@ body {
 }
 
 #main-section {
-    padding: 0px;
     margin-bottom: 16px;
     margin-top: 24px;
 }
@@ -206,54 +209,109 @@ body {
     font-size: 25px;
     font-weight: normal;
     color: black;
-    padding: 4px;
-    margin: px;
+    padding: 10px;
 }
 
 #sidebar-content {
     font-size: 20px;
-    background-color: #cfe2d8;
     width: 260px;
     padding: 24px;
+    background: linear-gradient(
+        rgb(145, 147, 255), 
+        rgb(57, 4, 47)
+    );
 }
 
-#sidebar-content h2 {
+#sidebar-content h2 a {
+    font-weight: bold;
+    font-size: 28px;
     border-bottom: 2px solid black;
     padding-bottom: 6px;
 }
 
 #main-content {
     font-size: 20px;
-    margin: 10px;
     padding-left: 16px;
     text-align: center;
 }
 
 #menu #main-content img {
-    width: 60%;
+    width: 65%;
+    margin-top: 34px;
 }
 
 #menu #main-content .name {
+    padding: 36px;
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
 }
 
 #menu #main-content h3 {
-    font-size: 25px;
-    padding: 6px;
-    margin: 16px;
+    font-size: 28px;
+    padding: 22px;
+    margin: 26px;
 }
 
 #main-content .name p {
-    font-size: 24px;
+    padding-bottom: 0px;
+    font-size: 30px;
 }
 
 #menu #centered-column {
     width: 50vw;
 }
 
-.card {
+#side-by-side {
+    display: flex;
+}
+/* cards ******************************************************************/
+#centered-column {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    max-width: 100px;
+    margin-right: 26px;
+    padding-left: 180px;
+    align-items: center;
+}
+
+#menu #centered-column {
+    width: 100%;
+}
+
+#menu #centered-column img {
+    width: 110%;
+    padding: 26px;
+}
+
+#menu #centered-column .card h2 {
+    font-size: 40px;
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+
+#menu #centered-column .card h4{
+    font-size: 26px;
+    padding-left: 0px;
+    margin: 16px;
+}
+
+#menu #centered-column .card h3 {
+    font-size: 36px;
+    padding-left: 24px;
+}
+
+#menu #main-content h2 {
+    font-size: 42px;
+    border-bottom: 2px solid black;
+    margin: 28px;
+    padding: 16px;
+}
+
+#menu #main-content h1 {
+    font-size: 40px;
+    margin: 26px;
     padding: 12px;
-    width: 500px;
+    border-bottom: 2px solid black;
 }
