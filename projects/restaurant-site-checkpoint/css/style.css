@@ -8,14 +8,14 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(
-        rgb(255, 241, 120), 
-        rgb(253, 182, 38)
+        rgb(255, 234, 47), 
+        rgb(255, 170, 0)
     );
 }
 
 /* Beginning hero ****************************************************/
 #hero {
-    background-image: url("../images/food-hero.jpg");
+    background-image: url("../images/hero.jpg");
     height: 460px;
     background-size: cover;
     background-attachment: fixed;
@@ -26,22 +26,24 @@ body {
 }
 
 #hero h2 {
-   font-size: 38px;
-   position: absolute;
-   left: 58%;
-   top: 18%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 15%;
 }
 
 #hero p {
-    font-size: 24px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
     position: absolute;
     font-weight: bold;
     top: 43%;
-    left: 57%;
+    left: 50%;
 }
 
 #hero .cta-button {
-    background-color: rgb(144, 87, 27);
+    background-color: rgb(247, 0, 255);
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -49,7 +51,7 @@ body {
     font-size: 24px;
     position: absolute;
     top: 76%;
-    left: 70%;
+    left: 67%;
     padding: 16px;
     padding-right: 12px;
 }
@@ -58,12 +60,16 @@ body {
 /* Beginning navbar ****************************************************/
 #navbar {
     display: flex;
-    background-color: aquamarine; 
+    background: linear-gradient(
+        rgb(232, 100, 255), 
+        rgb(5, 14, 67)
+    );
     justify-content: space-between;
     align-items: center; 
 }
 
 #navbar a h2 {
+    color: rgb(255, 255, 255);
     width: 200px;
     font-size: 32px;
     margin-left: 12px;
@@ -72,7 +78,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 20px;
     font-size: 20px;
     padding-left: 14px;
@@ -80,7 +86,7 @@ body {
 }
 
 #navbar .cta-button {
-    background-color: rgb(144, 87, 27);
+    background-color: rgb(195, 0, 255);
     color: white;
     border-radius: 36px;
     padding: 14px 20px;
@@ -94,8 +100,10 @@ body {
 
 #navbar-bottom {
     display: flex;
-    background-color: brown;
+    background-color: rgb(2, 15, 105);
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 
 #navbar-bottom a {
@@ -154,7 +162,7 @@ body {
 .side-by-side .text-container a {
     display: inline-block;
     text-decoration: none;
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 26px;
     font-weight: bold;
@@ -167,11 +175,12 @@ body {
     justify-content: space-between;
     padding-top: 36px;
     margin: 12px;
-    gap: 30px;
+    gap: 28px;
+    object-fit: cover;
 }
 
 .card img {
-   width: 100%;
+    width: 100%;
 }
 
 #three-card-container h4 {
@@ -199,11 +208,30 @@ body {
 }
 
 /* beginning footer ***************************************************/
+
+#footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    padding-top: px;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 6px auto;
+    display: flex;
+    justify-content: space-between;
+}
 /* end footer *********************************************************/
 
 #menu {
     display: flex;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
 }
 
 #sidebar-content a {
@@ -220,8 +248,8 @@ body {
     width: 260px;
     padding: 40px;
     background: linear-gradient(
-        rgb(145, 147, 255), 
-        rgb(57, 4, 47)
+        rgb(218, 145, 255), 
+        rgb(63, 7, 52)
     );
 }
 
@@ -239,7 +267,7 @@ body {
 }
 
 #menu #main-content img {
-    width: 65%;
+    width: 150%;
     margin-top: 34px;
 }
 
@@ -253,12 +281,15 @@ body {
 #menu #main-content h3 {
     font-size: 29px;
     padding: 6px;
-    margin: 28px;
+    margin: 36px;
+    padding-left: 86px;
 }
 
 #main-content .name p {
     padding: 20px;
     font-size: 30px;
+    font-weight: bold;
+    margin-left: 55px;
 }
 
 #menu #centered-column {
@@ -267,18 +298,22 @@ body {
 
 #side-by-side {
     display: flex;
+    align-items: center;
 }
 /* cards ******************************************************************/
+
 #centered-column {
     display: flex;
     flex-direction: row;
     width: 80vw;
     margin-right: 26px;
     align-items: center;
+    object-fit: cover;
 }
 
 #menu #centered-column {
     width: 100%;
+    object-fit: cover;
 }
 
 #menu #centered-column .card {
@@ -296,7 +331,7 @@ body {
     margin-bottom: 24px;
 }
 
-#menu #centered-column .card h4{
+#menu #centered-column .card h4 {
     font-size: 26px;
     padding-left: 12px;
     margin: 8px;
@@ -319,4 +354,48 @@ body {
     margin: 26px;
     padding: 16px;
     border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 1161px) {
+    #navbar {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #navbar-bottom {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #three-card-container {
+        flex-wrap: wrap;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+    }
+
+    #footer-navbar {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #sidebar-content a {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #side-by-side {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #centered-column {
+        flex-direction: column;
+    }
 }
