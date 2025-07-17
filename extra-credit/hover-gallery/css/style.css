@@ -7,55 +7,152 @@ body {
     font-family: sans-serif;
 }
 
-#card-container {
+#hover-gallery-3 {
     display: flex;
     flex-wrap: wrap;
-
-    align-items: center;
+    position: relative;
 }
 
-.card {
-    flex: 300px;
-    background-color: black;
-    color: white;
-    margin: 24px;
-    padding: 24px;
+#hover-gallery-3 .card-front,
+#hover-gallery-3 .card-back {
+    border: 4px solid black;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+#hover-gallery-3 .card-back {
+    transform: scaleX(0);
+}
+
+#hover-gallery-3 .card-front {
+    transition: transform 0.25s 0.25s;
+}
+
+#hover-gallery-3 .card-back {
+    transition: transform 0.25s;
+}
+
+#hover-gallery-3:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+#hover-gallery-3 :hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+/* beginning **************************************************************/
+#shrek .card-front {
+    background-image: url("../images/shrek.avif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.25s 0.25s;
+}
+
+#shrek .card-back {
+    background-image: linear-gradient(
+        #FFFFFFDD, 
+        #FFFFFFDD
+    ), 
+        url(../images/shrek.avif);
+    background-size: cover;
+    background-position: center center;
+}
+/* end *******************************************************************/
+
+#fiona .card-front {
+    background-image: url("../images/fiona.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.25s 0.25s;
+}
+
+#fiona .card-back {
+    background-image: linear-gradient(
+        #FFFFFFDD, 
+        #FFFFFFDD
+    ), 
+        url(../images/fiona.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* end **************************************************************/
+
+#donkey .card-front {
+    background-image: url("../images/donkey.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.25s 0.25s;
+}
+
+#donkey .card-back {
+    background-image: linear-gradient(
+        #FFFFFFDD, 
+        #FFFFFFDD
+    ), 
+        url(../images/donkey.webp);
+    background-size: cover;
+    background-position: center center;
+}
+/* end **************************************************************/
+
+#puss .card-front {
+    background-image: url("../images/puss-in-boots.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.25s 0.25s;
+}
+
+#puss .card-back {
+    background-image: linear-gradient(
+        #FFFFFFDD, 
+        #FFFFFFDD
+    ), 
+        url(../images/puss-in-boots.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* end **************************************************************/
+
+.card-back h2 {
+    font-size: 38px;
     text-align: center;
-    font-size: 24px;
 }
 
-.card p {
-    font-size: 24px;
+.card-back p {
+    font-size: 30px;
+    text-align: center;
 }
 
-.card a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 26px;
-    padding: 12px;
-    margin-top: 26px;
-    border-radius: 36px;
-    border: 4px solid white;
-}
-
-#hover-gallery-2 p {
-    font-size: 19px;
-}
-
-/* pseudo-class */
-#hover-gallery-2 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-6px);
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s;
-}
-
-#hover-gallery-2:hover .card-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
+#hover-gallery-3 .card {
+    flex: 300px;
+    min-height: 250px;
+    margin: 24px;
+    text-align: center;
+    position: relative;
 }
