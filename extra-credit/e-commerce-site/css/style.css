@@ -6,3 +6,30 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#navbar {
+    display: flex;
+    background-color: red;
+}
+
+#navbar a h2 {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    margin-left: 36px;
+}
+
+#navbar-bottom {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
